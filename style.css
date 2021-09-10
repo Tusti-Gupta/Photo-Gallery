@@ -1,0 +1,75 @@
+body {
+text-align: center;
+}
+
+section {
+color: #2b2b2b;
+font-family: cursive;
+text-align: center;
+}
+
+.menu {
+list-style: none;
+font-family: cursive;
+position:relative;
+top:10px;
+right: 30px;
+z-index: 10;
+cursor: pointer;
+background-color: orange;
+}
+
+.links {
+padding-top: 5px;
+padding-left: 9px;
+padding-right: 9px;
+padding-bottom: 5px;
+}
+
+.links:hover {
+border-width: 2px;
+border: solid;
+border-color: white;
+}
+
+.items {
+text-decoration: none;
+color: white;
+font-family: cursive;
+font-size: 20px;
+}
+
+.items:hover {
+font-size: 25px;
+}
+
+#img1 {
+margin-right: 60px;
+}
+
+#img2 {
+margin-left: 60px;
+}
+
+h1 {
+font-variant: small-caps;
+font-size: 25px;
+text-decoration: underline;
+text-decoration-color: orange;
+text-decoration-style: wavy;
+} 
+
+#Gallery {
+margin: 100px;
+background-color: orange;
+width: 1285px;
+}
+
+.gallery-items {
+margin: 5px;
+}
+
+.slides {
+height: 200px;
+width: 200px;
+}
